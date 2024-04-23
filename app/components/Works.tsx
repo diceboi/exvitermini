@@ -48,7 +48,7 @@ export default function Works() {
                         <motion.h5>{item.subtitle}</motion.h5>
                         <motion.h2>{item.title}</motion.h2>
                         {item.images.map(image => (  
-                                <Image src={image.image1} width={1440} height={900} alt="alt" className="rounded-3xl" />
+                                <Image key={image.image1} src={image.image1} width={1440} height={900} alt="alt" className="rounded-3xl" />
                         ))}
                 </motion.div>
                 ))} 
@@ -56,7 +56,7 @@ export default function Works() {
 
             <AnimatePresence>
                 {selectedId && selectedItem && (
-                <motion.div layoutId={selectedId.toString()}>
+                <motion.div key={selectedId.toString()} layoutId={selectedId.toString()}>
                     <motion.h5>{selectedItem.subtitle}</motion.h5>
                     <motion.h2>{selectedItem.title}</motion.h2>
 
