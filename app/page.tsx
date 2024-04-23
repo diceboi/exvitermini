@@ -1,10 +1,12 @@
 import CreativeBlock from "./components/CreativeBlock"
 import Businessblock from "./components/Businessblock"
+import Works from "./components/Works"
 
 export default function Home() {
   return (
-    <section className='w-full h-[100vh] flex flex-col lg:flex-row '>
+    <section className='w-full flex flex-col'>
       <CreativeBlock />
+      <Works />
     </section>
   )
 }
