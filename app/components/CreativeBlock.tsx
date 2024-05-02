@@ -6,13 +6,17 @@ import { FaArrowDown } from "react-icons/fa6";
 
 export default function CreativeBlock() {
 
+  const scrollDown100vh = () => {
+    window.scrollBy(0, window.innerHeight);
+  };
+
   return (
-    <div className='group fixed flex flex-col justify-center items-center w-full h-[100vh] border-r border-white'>
+    <div className='group fixed flex flex-col justify-center items-center w-full h-[100vh]'>
       <div className="absolute -top-0 -left-0 w-1/3 h-1/2 rounded-full blur-3xl bg-green-500 opacity-10"></div>
       <div className="absolute -bottom-0 -right-0 w-1/3 h-1/2 rounded-full blur-3xl bg-purple-500 opacity-10"></div>
       <div className="relative flex flex-col justify-center items-center container m-auto w-10/12 p-8 h-[100vh] border-x border-white border-dashed">
         
-        <button className="flex flex-nowrap gap-2 justify-center items-center mt-96 text-syne text-bold text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105">Portfolio <FaArrowDown /></button>
+        <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center mt-96 text-syne text-bold text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105">Portfolio <FaArrowDown /></button>
 
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 -rotate-90 -left-20 text-white text-sm text-syne font-[700]"><FaArrowLeft /> Scroll down</p>
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 -right-24 text-white text-sm text-syne font-[700]">exvitermini @ 2024</p>

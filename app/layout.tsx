@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Syne, Smooch } from 'next/font/google'
 import './globals.css'
 import MainNav from './components/UI/MainNav'
+import WorksProvider from './WorkContext'
 
 const syne = Syne({ 
   subsets: ['latin'], 
@@ -28,10 +29,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <WorksProvider>
       <body className={`${syne.variable} ${smooch.variable}`}>
         <MainNav />
         {children}
       </body>
+      </WorksProvider>
     </html>
   )
 }
