@@ -2,17 +2,15 @@
 
 import { useContext, useState } from 'react'
 import WorkWrapper from '../components/UI/WorkWrapper'
-import WorkNav from '../components/UI/WorkNav'
 import { WorkContext } from "../WorkContext";
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa6';
-import { useRouter } from 'next/navigation';
 
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-export default function works({params}:any) {
+export default function Works({params}:any) {
 
   const [open, setOpen] = useState(false)
 
