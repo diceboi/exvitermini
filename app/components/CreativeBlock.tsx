@@ -31,12 +31,13 @@ export default function CreativeBlock() {
         autoPlay 
         muted 
         loop 
-        className='absolute w-full h-full top-0 left-0 object-cover -z-20 opacity-50' 
+        className='absolute w-full h-full top-0 left-0 object-cover lg:object-cover -z-20 opacity-50' 
       />
       <motion.div
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{ duration: 2 }}
+        className="lg:block hidden"
       >
         <motion.h1
           animate={{
@@ -59,6 +60,28 @@ export default function CreativeBlock() {
         </motion.h1>
 
       </motion.div>
+
+      <div className="block lg:hidden">
+        <motion.h1
+          animate={{
+            left: ['50%', '0%', '50%'],
+          }} 
+          transition={{ ease: "easeInOut", duration: 10, repeat: Infinity}} 
+          className='absolute top-1/4 text-white text-syne font-extrabold text-5xl opacity-20 w-full'
+        >
+          From the force
+        </motion.h1>
+
+        <motion.h1
+          animate={{
+            left: ['20%', '-30%', '20%'],
+          }} 
+          transition={{ ease: "easeInOut", duration: 10, repeat: Infinity}} 
+          className='absolute top-2/4 text-white text-syne font-extrabold text-5xl opacity-20 w-full'
+        >
+          of the boundary
+        </motion.h1>
+      </div>
 
       <div 
       className='absolute w-full h-full top-0 left-0 -z-20 bg-lime-600 mix-blend-lighten opacity-75'

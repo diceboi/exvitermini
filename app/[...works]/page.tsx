@@ -22,16 +22,16 @@ export default function Works({params}:any) {
     <WorkWrapper>
         <section className='relative flex flex-col gap-4 w-full min-h-[100vh] mt-16 bg-[#0000007e] '>
           <div className='sticky top-0 flex flex-row justify-between items-center bg-black border-b border-white p-4 z-50'>
-            <div className='flex flex-row gap-4 items-baseline'>
-              <h1 className="text-6xl text-white text-syne font-bold">{currentWork?.title}</h1>
-              <h2 className="text-xl text-white text-syne font-bold">{currentWork?.subtitle}</h2>
+            <div className='flex flex-col lg:flex-row gap-2 lg:gap-4 items-baseline'>
+              <h1 className="text-xl lg:text-6xl text-white text-syne font-bold">{currentWork?.title}</h1>
+              <h2 className="text-sm lg:text-xl text-white text-syne font-bold">{currentWork?.subtitle}</h2>
             </div>
-            <Link href={`/#${currentWork?.slug}`} className='flex flex-nowrap gap-4 items-center text-syne font-bold text-white'><FaArrowLeft /> Back to works</Link>
+            <Link href={`/#${currentWork?.slug}`} className='flex flex-nowrap gap-4 items-center text-sm lg:text-lg text-syne font-bold text-white'><FaArrowLeft /> Back to works</Link>
           </div>
           
-          <div className="container m-auto grid grid-cols-2 gap-2 p-4">
+          <div className="container m-auto grid grid-cols-1 lg:grid-cols-2 gap-2 p-4">
           {currentWork?.images.map((image:any, index:any) => (
-            <div key={index} onClick={() => setOpen(true)} className='relative w-full h-[70vh] z-0'>
+            <div key={index} onClick={() => setOpen(true)} className='relative w-full h-[50vh] lg:h-[70vh] z-0'>
               <Image src={image} fill style={{ objectFit: 'cover' }} alt="work1" className='cursor-pointer' />
             </div>
           ))}

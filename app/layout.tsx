@@ -3,6 +3,7 @@ import { Syne, Smooch } from 'next/font/google'
 import './globals.css'
 import MainNav from './components/UI/MainNav'
 import WorksProvider from './WorkContext'
+import Footer from './components/UI/Footer'
 
 const syne = Syne({ 
   subsets: ['latin'], 
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={`${syne.variable} ${smooch.variable}`}>
         <MainNav />
         {children}
+        <Footer />
       </body>
       </WorksProvider>
     </html>
