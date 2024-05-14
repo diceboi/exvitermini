@@ -19,7 +19,7 @@ export default function Footer() {
 
             <div className='flex flex-col gap-4'>
                 <div className="flex flex-nowrap items-baseline gap-2">
-                    <h1 className='text-syne font-bold text-white text-sm'>Contact us and let's have a talk!</h1>
+                    <h1 className='text-syne font-bold text-white text-sm'>Contact us and let&apos;s have a talk!</h1>
                 </div>
                 <div>
                     <p className="text-white underline"><a href="mailto:info@exvitermini.hu">info@exvitermini.hu</a></p>
