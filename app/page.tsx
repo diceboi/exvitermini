@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs"
 import CreativeBlock from "./components/CreativeBlock"
 import Works from "./components/Works"
 
@@ -6,6 +7,7 @@ export default function Home() {
     <section className='w-full flex flex-col'>
       <CreativeBlock />
       <Works />
+      <AboutUs />
     </section>
   )
 }

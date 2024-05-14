@@ -16,7 +16,12 @@ export default function CreativeBlock() {
       <div className="absolute -bottom-0 -right-0 w-1/3 h-1/2 rounded-full blur-3xl bg-purple-500 opacity-10"></div>
       <div className="relative flex flex-col justify-center items-center container m-auto w-10/12 p-8 h-[100vh] border-x border-white border-dashed">
         
-        <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center mt-96 text-syne text-bold text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105">Portfolio <FaArrowDown /></button>
+        <div className="flex flex-col justify-center items-center gap-4 mt-96">
+          <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">Portfolio <FaArrowDown className="w-6 h-6"/></button>
+          <a href="#aboutus" className="flex flex-nowrap gap-2 justify-center items-center text-syne font-bold text-white px-4 py-2 rounded-full text-xl hover:scale-105 transition-all duration-200">About us</a>
+        </div>
+        
+        
 
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 -rotate-90 -left-20 text-white text-sm text-syne font-[700]"><FaArrowLeft /> Scroll down</p>
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 -right-24 text-white text-sm text-syne font-[700]">exvitermini @ 2024</p>

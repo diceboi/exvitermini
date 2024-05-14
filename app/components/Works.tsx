@@ -35,7 +35,7 @@ export default function Works() {
             <div className="grid w-full lg:grid-cols-3 grid-cols-1 gap-8">
               {
                 works.map((item:any, index:number) => (
-                  <WorkTile key={item.id} id={item.id} title={item.title} subtitle={item.subtitle} cols={item.cols} slug={item.slug} images={item.images}/>
+                  <WorkTile key={item.id} id={item.id} title={item.title} subtitle={item.subtitle} cols={item.cols} slug={item.slug} images={item.images} quote={item.quote}/>
                 ))
               }
             </div>

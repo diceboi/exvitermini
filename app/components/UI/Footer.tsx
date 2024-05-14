@@ -9,7 +9,7 @@ export default function Footer() {
             <div className='flex flex-col gap-4'>
                 <div className="flex flex-nowrap items-baseline gap-2">
                     <Image src="/exvitermini-logo-white.svg" height={75} width={200} alt='exvitermini logo' className='w-[150px]' />
-                    <h1 className='text-syne font-bold text-white text-sm'>Creative Agency</h1>
+                    <h1 className='text-syne font-bold text-white text-sm'>Creative Works</h1>
                 </div>
                 
                 <div>
@@ -19,11 +19,10 @@ export default function Footer() {
 
             <div className='flex flex-col gap-4'>
                 <div className="flex flex-nowrap items-baseline gap-2">
-                    <h1 className='text-syne font-bold text-white text-sm'>Contact us</h1>
+                    <h1 className='text-syne font-bold text-white text-sm'>Contact us and let's have a talk!</h1>
                 </div>
                 <div>
                     <p className="text-white underline"><a href="mailto:info@exvitermini.hu">info@exvitermini.hu</a></p>
-                    <p className="text-white underline"><a href="tel:+36706200500">+36 70 620 0500</a></p>
                 </div>
             </div>
 

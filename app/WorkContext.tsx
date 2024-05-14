@@ -9,6 +9,7 @@ interface WorkItem {
   cols: string;
   slug: string;
   images: string[];
+  quote: string;
 }
 
 // Define the context type with a works property
@@ -35,7 +36,8 @@ export default function WorksProvider({ children }:any) {
         '/works/acceptrec-3.png',
         '/works/acceptrec-4.png',
         '/works/acceptrec-5.png'
-      ]
+      ],
+      quote: '',
     },
     {
       id: 2,
@@ -48,7 +50,8 @@ export default function WorksProvider({ children }:any) {
         '/works/arpusz-2.png',
         '/works/arpusz-3.png',
         '/works/arpusz-4.png'
-      ]
+      ],
+      quote: '',
     },
     {
       id: 3,
@@ -60,7 +63,8 @@ export default function WorksProvider({ children }:any) {
         '/works/besslash-1.png',
         '/works/besslash-mockup.jpg',
         '/works/pricelist.jpg'
-      ]
+      ],
+      quote: '',
     },
     {
         id: 4,
@@ -70,7 +74,8 @@ export default function WorksProvider({ children }:any) {
         slug: 'bohar-photo',
         images: [
           '/works/bohar-photo.jpg'
-        ]
+        ],
+        quote: '',
       },
       {
         id: 5,
@@ -81,7 +86,19 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/derlaszento.jpg',
           '/works/derlaszento-doboz.jpg'
-        ]
+        ],
+        quote: '',
+      },
+      {
+        id: 0,
+        title: '',
+        subtitle: '',
+        cols: '',
+        slug: '',
+        images: [
+          ''
+        ],
+        quote: '“Create with the heart; build with the mind.” - Criss Jami',
       },
       {
         id: 6,
@@ -94,7 +111,8 @@ export default function WorksProvider({ children }:any) {
           '/works/dicecase-2.jpg',
           '/works/dicecase-3.jpg',
           '/works/dicecase-5.jpg'
-        ]
+        ],
+        quote: '',
       },
       {
         id: 7,
@@ -106,7 +124,8 @@ export default function WorksProvider({ children }:any) {
           '/works/dormee1.jpg',
           '/works/dormee2.jpg',
           '/works/dormee-label.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 8,
@@ -124,7 +143,8 @@ export default function WorksProvider({ children }:any) {
           '/works/v4-2.png',
           '/works/v4-3.png',
           '/works/v4-4.png',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 9,
@@ -139,7 +159,8 @@ export default function WorksProvider({ children }:any) {
           '/works/fakultatief-4.jpg',
           '/works/fakultatief-5.png',
           '/works/fakultatief-6.png',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 10,
@@ -150,7 +171,8 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/hodmezovasarhely-1.jpg',
           '/works/hodmezovasarhely-2.jpg'
-        ]
+        ],
+        quote: '',
       },
       {
         id: 11,
@@ -160,7 +182,19 @@ export default function WorksProvider({ children }:any) {
         slug: 'joblinken',
         images: [
           '/works/joblinken-1.jpg'
-        ]
+        ],
+        quote: '',
+      },
+      {
+        id: 0,
+        title: '',
+        subtitle: '',
+        cols: '',
+        slug: '',
+        images: [
+          ''
+        ],
+        quote: '“To have a great idea, have a lot of them.” - Thomas A. Edison',
       },
       {
         id: 12,
@@ -176,7 +210,8 @@ export default function WorksProvider({ children }:any) {
           '/works/kispatas-5.jpg',
           '/works/kispatas-6.jpg',
           '/works/kispatas-7.png',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 13,
@@ -187,7 +222,8 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/malibu-1.jpg',
           '/works/malibu-2.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 14,
@@ -197,7 +233,8 @@ export default function WorksProvider({ children }:any) {
         slug: 'nowa',
         images: [
           '/works/nowa-1.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 15,
@@ -213,7 +250,8 @@ export default function WorksProvider({ children }:any) {
           '/works/pebo-5.png',
           '/works/pebo-6.png',
           '/works/pebo-7.png',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 16,
@@ -225,7 +263,8 @@ export default function WorksProvider({ children }:any) {
           '/works/pakkecske-1.jpg',
           '/works/pakkecske-2.jpg',
           '/works/pakkecske-3.jpg'
-        ]
+        ],
+        quote: '',
       },
       {
         id: 17,
@@ -235,7 +274,19 @@ export default function WorksProvider({ children }:any) {
         slug: 'practilub',
         images: [
           '/works/practilub-1.jpg',
-        ]
+        ],
+        quote: '',
+      },
+      {
+        id: 0,
+        title: '',
+        subtitle: '',
+        cols: '',
+        slug: '',
+        images: [
+          ''
+        ],
+        quote: '“Creativity is seeing what others see and thinking what no one else ever thought” - Albert Einstein',
       },
       {
         id: 18,
@@ -246,7 +297,8 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/regos-1.jpg',
           '/works/regos-2.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 19,
@@ -261,7 +313,8 @@ export default function WorksProvider({ children }:any) {
           '/works/relight-4.jpg',
           '/works/relight-5.jpg',
           '/works/relight-6.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 20,
@@ -272,7 +325,8 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/gik-1.jpg',
           '/works/gik-2.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 21,
@@ -283,7 +337,8 @@ export default function WorksProvider({ children }:any) {
         images: [
           '/works/toffini-1.jpg',
           '/works/toffini-2.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 22,
@@ -295,7 +350,8 @@ export default function WorksProvider({ children }:any) {
           '/works/vac-1.jpg',
           '/works/vac-2.jpg',
           '/works/vac-3.jpg',
-        ]
+        ],
+        quote: '',
       },
       {
         id: 23,
@@ -308,7 +364,19 @@ export default function WorksProvider({ children }:any) {
           '/works/wilhelm-2.jpg',
           '/works/wilhelm-3.jpg',
           '/works/wilhelm-3.jpg',
-        ]
+        ],
+        quote: '',
+      },
+      {
+        id: 0,
+        title: '',
+        subtitle: '',
+        cols: '',
+        slug: '',
+        images: [
+          ''
+        ],
+        quote: "“A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life” - Elizabeth Gilbert",
       },
   ]
 
