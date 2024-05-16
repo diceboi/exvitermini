@@ -13,7 +13,7 @@ export default function Footer() {
                 </div>
                 
                 <div>
-                    <p className="text-white italic">ex vi ter·​mi·​ni eks-ˌwē-&apos;ter-mə-ˌnē : from the force of the boundary</p>
+                    <p className="text-white italic">“ex vi ter·​mi·​ni eks-ˌwē-&apos;ter-mə-ˌnē : from the force of the boundary”</p>
                 </div>
             </div>
 

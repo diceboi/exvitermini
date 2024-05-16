@@ -18,7 +18,6 @@ export default function CreativeBlock() {
         
         <div className="flex flex-col justify-center items-center gap-4 mt-96">
           <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">Portfolio <FaArrowDown className="w-6 h-6"/></button>
-          <a href="#aboutus" className="flex flex-nowrap gap-2 justify-center items-center text-syne font-bold text-white px-4 py-2 rounded-full text-xl hover:scale-105 transition-all duration-200">About us</a>
         </div>
         
         
@@ -51,7 +50,7 @@ export default function CreativeBlock() {
           transition={{ ease: "easeInOut", duration: 10, repeat: Infinity}} 
           className='absolute top-1/3 bg-clip-text text-transparent bg-gradient-to-r from-white to-[#ffffff0c] text-syne font-extrabold text-6xl opacity-100 text-right w-1/3'
         >
-          From the force
+          “Create with the heart
         </motion.h1>
 
         <motion.h1 
@@ -61,7 +60,7 @@ export default function CreativeBlock() {
           transition={{ ease: "easeInOut", duration: 10, repeat: Infinity}}
           className='absolute bottom-1/3 bg-clip-text text-transparent bg-gradient-to-l from-white to-[#ffffff0c]  text-syne font-extrabold text-6xl opacity-100 text-left w-1/3'
         >
-          of the boundary
+          build with the mind”
         </motion.h1>
 
       </motion.div>

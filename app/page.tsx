@@ -7,7 +7,6 @@ export default function Home() {
     <section className='w-full flex flex-col'>
       <CreativeBlock />
       <Works />
-      <AboutUs />
     </section>
   )
 }
