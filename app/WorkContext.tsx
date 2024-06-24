@@ -89,7 +89,7 @@ export default function WorksProvider({ children }:any) {
         ],
         quote: '',
       },
-      {
+      /*{
         id: 0,
         title: '',
         subtitle: '',
@@ -99,7 +99,7 @@ export default function WorksProvider({ children }:any) {
           ''
         ],
         quote: '“Create with the heart; build with the mind.” - Criss Jami',
-      },
+      },*/
       {
         id: 6,
         title: 'Dice Cases',
@@ -129,8 +129,8 @@ export default function WorksProvider({ children }:any) {
       },
       {
         id: 8,
-        title: 'IQC',
-        subtitle: 'EV charger 3D design',
+        title: 'Exvitermini',
+        subtitle: 'EV charger 3D design and prototype',
         cols: '1',
         slug: 'iqc',
         images: [
@@ -187,7 +187,7 @@ export default function WorksProvider({ children }:any) {
         ],
         quote: '',
       },
-      {
+      /*{
         id: 0,
         title: '',
         subtitle: '',
@@ -197,7 +197,7 @@ export default function WorksProvider({ children }:any) {
           ''
         ],
         quote: '“To have a great idea, have a lot of them.” - Thomas A. Edison',
-      },
+      },*/
       {
         id: 12,
         title: 'Kispatás Lovasudvar',
@@ -279,7 +279,7 @@ export default function WorksProvider({ children }:any) {
         ],
         quote: '',
       },
-      {
+      /*{
         id: 0,
         title: '',
         subtitle: '',
@@ -289,7 +289,7 @@ export default function WorksProvider({ children }:any) {
           ''
         ],
         quote: '“Creativity is seeing what others see and thinking what no one else ever thought” - Albert Einstein',
-      },
+      },*/
       {
         id: 18,
         title: 'Regős',
@@ -369,7 +369,7 @@ export default function WorksProvider({ children }:any) {
         ],
         quote: '',
       },
-      {
+      /*{
         id: 0,
         title: '',
         subtitle: '',
@@ -379,7 +379,7 @@ export default function WorksProvider({ children }:any) {
           ''
         ],
         quote: "“A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life” - Elizabeth Gilbert",
-      },
+      },*/
   ]
 
 

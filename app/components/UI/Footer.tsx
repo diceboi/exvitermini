@@ -9,7 +9,7 @@ export default function Footer() {
             <div className='flex flex-col gap-4'>
                 <div className="flex flex-nowrap items-baseline gap-2">
                     <Image src="/exvitermini-logo-white.svg" height={75} width={200} alt='exvitermini logo' className='w-[150px]' />
-                    <h1 className='text-syne font-bold text-white text-sm'>Creative Works</h1>
+                    <h1 className='text-syne font-bold text-white text-sm'>creative works</h1>
                 </div>
                 
                 <div>
