@@ -145,6 +145,7 @@ export default function WorksProvider({ children }:any) {
           '/works/v4-4.png',
           '/works/v4-5.png',
           '/works/v5-2.png',
+          '/works/ev-charger-prototype.webp'
         ],
         quote: '',
       },
