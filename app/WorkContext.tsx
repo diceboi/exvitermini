@@ -381,6 +381,21 @@ export default function WorksProvider({ children }:any) {
         ],
         quote: "“A creative life is an amplified life. It's a bigger life, a happier life, an expanded life, and a hell of a lot more interesting life” - Elizabeth Gilbert",
       },*/
+      {
+        id: 24,
+        title: 'Exvitermini Sanitation Station',
+        subtitle: '3D design, Prototyping, Environment visualization',
+        cols: '1',
+        slug: 'sanitation',
+        images: [
+          '/works/fertotlenito-5.jpg',
+          '/works/fertotlenito-1.jpg',
+          '/works/fertotlenito-2.jpg',
+          '/works/fertotlenito-3.png',
+          '/works/fertotlenito-4.png',
+        ],
+        quote: '',
+      },
   ]
 
 
