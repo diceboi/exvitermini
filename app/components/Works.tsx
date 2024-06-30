@@ -37,7 +37,7 @@ export default function Works() {
               We have a creative mindset to execute that two steps mentioned above: think and create something what our customers like. Exvitermini can be your company&apos;s universal tool to help you rationalize your new product, create design, branding, product catalogues and publications. We can even help you develop, build and test prototypes; organize and create documents, drawings, production plans. We give you precisely defined package of services with transparent processes and organized workflow in order to take off weight from your shoulder. We create the enviroment for you where you can direct your attention to details which are most the important to you.
               </p>
             </div>
-            <h1 className="text-8xl lg:text-8xl text-white text-syne font-black">Portfolio</h1>
+            <h1 className="text-4xl lg:text-8xl text-white text-syne font-black text-center lg:text-left">Portfolio</h1>
             <div className="grid w-full lg:grid-cols-3 grid-cols-1 gap-8">
               {
                 works.map((item:any, index:number) => (
