@@ -17,7 +17,7 @@ export default function CreativeBlock() {
       <div className="relative flex flex-col justify-center items-center container m-auto w-10/12 p-8 h-[100vh] border-x border-white border-dashed">
         
         <div className="flex flex-col justify-center items-center gap-4 mt-96">
-          <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-red-500 px-4 py-2 rounded-full text-3xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">About us<FaArrowDown className="w-6 h-6"/></button>
+          <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-red-500 px-4 py-2 rounded-full lg:text-3xl text-xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">About us<FaArrowDown className="w-6 h-6"/></button>
         </div>
         
         
