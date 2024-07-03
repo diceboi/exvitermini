@@ -389,8 +389,6 @@ export default function WorksProvider({ children }:any) {
         slug: 'sanitation',
         images: [
           '/works/fertotlenito-5.jpg',
-          '/works/fertotlenito-1.jpg',
-          '/works/fertotlenito-2.jpg',
           '/works/fertotlenito-3.png',
           '/works/fertotlenito-4.png',
         ],
