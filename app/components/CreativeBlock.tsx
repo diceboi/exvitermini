@@ -12,12 +12,12 @@ export default function CreativeBlock() {
 
   return (
     <div className='group fixed flex flex-col justify-center items-center w-full h-[100vh]'>
-      <div className="absolute -top-0 -left-0 w-1/3 h-1/2 rounded-full blur-3xl bg-green-500 opacity-10"></div>
+      <div className="absolute -top-0 -left-0 w-1/3 h-1/2 rounded-full blur-3xl bg-blue-500 opacity-10"></div>
       <div className="absolute -bottom-0 -right-0 w-1/3 h-1/2 rounded-full blur-3xl bg-purple-500 opacity-10"></div>
       <div className="relative flex flex-col justify-center items-center container m-auto w-10/12 p-8 h-[100vh] border-x border-white border-dashed">
         
         <div className="flex flex-col justify-center items-center gap-4 mt-96">
-          <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-red-500 px-4 py-2 rounded-full lg:text-4xl text-xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">About us<FaArrowDown className="w-6 h-6"/></button>
+          <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-blue-500 px-4 py-2 rounded-full lg:text-4xl text-xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">What is Exvitermini?<FaArrowDown className="w-6 h-6"/></button>
         </div>
         
         
@@ -88,7 +88,7 @@ export default function CreativeBlock() {
       </div>
 
       <div 
-      className='absolute w-full h-full top-0 left-0 -z-20 bg-lime-600 mix-blend-lighten opacity-75'
+      className='absolute w-full h-full top-0 left-0 -z-20 bg-blue-600 mix-blend-lighten opacity-75'
       >
       </div>
     </div>
