@@ -35,7 +35,7 @@ export default function Works() {
               </p>
               <div className="flex flex-col gap-4">
                 <p className="text-white text-syne text-justify font-medium text-sm lg:text-xl z-50 ">
-                We are small group of professionals with creative mindsets. We can be your company's universal tool to help you rationalize your new product, create brand, design, product catalogues and publications. We can even help you develop, build and test prototypes with complete documentations, drawings and production plans.
+                We are small group of professionals with creative mindsets. We can be your company&apos;s universal tool to help you rationalize your new product, create brand, design, product catalogues and publications. We can even help you develop, build and test prototypes with complete documentations, drawings and production plans.
                 </p>
                 <p className="text-white text-syne text-justify font-medium text-sm lg:text-xl z-50 ">
                 We give you a precisely defined package of services with transparent processes and organized workflow in order to take off weight from your shoulder.
