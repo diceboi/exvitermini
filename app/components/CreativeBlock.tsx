@@ -88,7 +88,7 @@ export default function CreativeBlock() {
       </div>
 
       <div 
-      className='absolute w-full h-full top-0 left-0 -z-20 bg-blue-600 mix-blend-lighten opacity-75'
+      className='absolute w-full h-full top-0 left-0 -z-20 bg-[#1e5f82] mix-blend-darken opacity-50'
       >
       </div>
     </div>
