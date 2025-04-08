@@ -28,7 +28,7 @@ export default function Works() {
       className="mt-[100vh] z-30 bg-black rounded-t-3xl"
     >
         
-          <div className="container w-10/12 m-auto flex flex-col gap-8 lg:border-x border-[#ffffff80] border-dashed lg:px-8 pb-16">
+          {/*<div className="container w-10/12 m-auto flex flex-col gap-8 lg:border-x border-[#ffffff80] border-dashed lg:px-8 pb-16">
             <div className="flex flex-col gap-8 lg:gap-16 py-10">
               <p className="text-white text-syne text-justify font-bold text-lg lg:text-3xl z-50 self-center justify-self-center place-self-center">
               „A creative work is a manifestation of creative effort including fine artwork, dance, writing (literature), filmmaking, and composition. At its base, creative work involves two main steps - having an idea, and then turning that idea into a substantive form or process.” - Wikipedia
@@ -45,7 +45,7 @@ export default function Works() {
                 </p>
               </div>
               
-            </div>
+            </div>*/}
             {/*<h1 className="text-4xl lg:text-8xl text-white text-syne font-black text-center lg:text-left">Portfolio</h1>
             <div className="grid w-full lg:grid-cols-3 grid-cols-1 gap-8">
               {
@@ -53,8 +53,8 @@ export default function Works() {
                   <WorkTile key={item.id} id={item.id} title={item.title} subtitle={item.subtitle} cols={item.cols} slug={item.slug} images={item.images} quote={item.quote}/>
                 ))
               }
-            </div>*/}
-        </div>
+            </div>
+        </div>*/}
     </motion.section>
   )
 }

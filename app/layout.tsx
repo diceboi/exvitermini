@@ -34,7 +34,7 @@ export default function RootLayout({
       <body className={`${syne.variable} ${smooch.variable}`}>
         <MainNav />
         {children}
-        <Footer />
+        {/*<Footer />*/}
       </body>
       </WorksProvider>
     </html>

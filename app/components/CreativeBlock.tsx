@@ -16,14 +16,12 @@ export default function CreativeBlock() {
       <div className="absolute -bottom-0 -right-0 w-1/3 h-1/2 rounded-full blur-3xl bg-purple-500 opacity-10"></div>
       <div className="relative flex flex-col justify-center items-center container m-auto w-10/12 p-8 h-[100vh] border-x border-white border-dashed">
         
-        <div className="flex flex-col justify-center items-center gap-4 mt-96">
+        {/*<div className="flex flex-col justify-center items-center gap-4 mt-96">
           <button onClick={scrollDown100vh} className="flex flex-nowrap gap-2 justify-center items-center text-syne font-black text-white bg-blue-500 px-4 py-2 rounded-full lg:text-4xl text-xl bg-opacity-10 backdrop-blur-sm border border-white hover:scale-105 transition-all duration-200">What is Exvitermini?<FaArrowDown className="w-6 h-6"/></button>
-        </div>
-        
-        
+        </div>*/}     
 
-        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 -rotate-90 -left-20 text-white text-sm text-syne font-[700]"><FaArrowLeft /> Scroll down</p>
-        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 -right-24 text-white text-sm text-syne font-[700]">exvitermini @ 2024</p>
+        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 -rotate-90 lg:-left-72 -left-[270px] max-w-fit text-white text-sm text-syne font-[700]">“ex vi ter·​mi·​ni eks-ˌwē-&apos;ter-mə-ˌnē : from the force of the boundary”</p>
+        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 lg:-right-60 -right-[220px] max-w-fit text-white text-sm text-syne font-[700]">Contact us and let&apos;s have a talk! <a href="mailto:info@exvitermini.hu" className="underline cursor-pointer">info@exvitermini.hu</a></p>
       </div>
 
       <motion.video 
@@ -35,7 +33,7 @@ export default function CreativeBlock() {
         autoPlay 
         muted 
         loop 
-        className='absolute w-full h-full top-0 left-0 object-cover lg:object-cover -z-20 opacity-50' 
+        className='absolute w-full h-full top-0 left-0 object-cover lg:object-cover -z-20 opacity-50 filter grayscale' 
       />
       <motion.div
         initial={{opacity: 0}}
@@ -87,10 +85,7 @@ export default function CreativeBlock() {
         </motion.h1>
       </div>
 
-      <div 
-      className='absolute w-full h-full top-0 left-0 -z-20 bg-[#1e5f82] mix-blend-darken opacity-50'
-      >
-      </div>
+     
     </div>
   );
 }
