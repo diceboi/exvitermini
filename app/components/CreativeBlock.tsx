@@ -21,7 +21,7 @@ export default function CreativeBlock() {
         </div>*/}     
 
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 -rotate-90 lg:-left-72 -left-[270px] max-w-fit text-white text-sm text-syne font-[700]">“ex vi ter·​mi·​ni eks-ˌwē-&apos;ter-mə-ˌnē : from the force of the boundary”</p>
-        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 lg:-right-60 -right-[220px] max-w-fit text-white text-sm text-syne font-[700]">Contact us and let&apos;s have a talk! <a href="mailto:info@exvitermini.hu" className="underline cursor-pointer">info@exvitermini.hu</a></p>
+        <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 lg:-right-60 -right-[220px] max-w-fit text-white text-sm text-syne font-[700]">Find out what we do: <a href="mailto:info@exvitermini.hu" className="underline cursor-pointer">info@exvitermini.hu</a></p>
       </div>
 
       <motion.video 
