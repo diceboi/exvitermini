@@ -24,7 +24,7 @@ export default function CreativeBlock() {
         <p className="flex flex-nowrap items-center gap-4 absolute top-1/2 -translate-y-1/2 rotate-90 lg:-right-60 -right-[220px] max-w-fit text-white text-sm text-syne font-[700]">Find out what we do: <a href="mailto:info@exvitermini.hu" className="underline cursor-pointer">info@exvitermini.hu</a></p>
       </div>
 
-      <motion.video 
+      <motion.video
         whileInView={{opacity:0.5}} 
         initial={{opacity:0}} 
         exit={{opacity:0.5}} 
