@@ -62,35 +62,37 @@ export default function CreativeBlock() {
           {/* Left Side: Project Management */}
           <div className="absolute right-[65%] flex items-center pointer-events-none">
 
-            <Link href="/project-management" className="pointer-events-auto cursor-pointer">
-              <motion.div
-                initial="hidden"
-                animate={isHovered ? "visible" : "hidden"}
-                variants={boxVariants}
-                className="relative px-4 py-2 mr-0 backdrop-blur-sm bg-black/10 overflow-hidden group/btn"
-              >
-                {/* SVG Border Drawing Effect */}
-                <svg className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                  <motion.rect
-                    variants={borderDrawVariants}
-                    width="100%"
-                    height="100%"
-                    fill="none"
-                    stroke="white"
-                    strokeWidth="1"
-                  />
-                </svg>
+            {false && (
+              <Link href="/project-management" className="pointer-events-auto cursor-pointer">
+                <motion.div
+                  initial="hidden"
+                  animate={isHovered ? "visible" : "hidden"}
+                  variants={boxVariants}
+                  className="relative px-4 py-2 mr-0 backdrop-blur-sm bg-black/10 overflow-hidden group/btn"
+                >
+                  {/* SVG Border Drawing Effect */}
+                  <svg className="absolute top-0 left-0 w-full h-full pointer-events-none">
+                    <motion.rect
+                      variants={borderDrawVariants}
+                      width="100%"
+                      height="100%"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="1"
+                    />
+                  </svg>
 
-                <div className="text-syne font-bold text-white text-lg uppercase tracking-widest block w-[280px] text-center">
-                  <ScrambleText
-                    text="Project Management"
-                    trigger={isHovered}
-                    delay={0.8}
-                    duration={0.8}
-                  />
-                </div>
-              </motion.div>
-            </Link>
+                  <div className="text-syne font-bold text-white text-lg uppercase tracking-widest block w-[280px] text-center">
+                    <ScrambleText
+                      text="Project Management"
+                      trigger={isHovered}
+                      delay={0.8}
+                      duration={0.8}
+                    />
+                  </div>
+                </motion.div>
+              </Link>
+            )}
 
             {/* Line */}
             <motion.div
@@ -111,35 +113,37 @@ export default function CreativeBlock() {
               className="h-[1px] bg-white origin-left"
             />
 
-            <Link href="/creative-works" className="pointer-events-auto cursor-pointer">
-              <motion.div
-                initial="hidden"
-                animate={isHovered ? "visible" : "hidden"}
-                variants={boxVariants}
-                className="relative px-4 py-2 ml-0 backdrop-blur-sm bg-black/10 overflow-hidden group/btn"
-              >
-                {/* SVG Border Drawing Effect */}
-                <svg className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                  <motion.rect
-                    variants={borderDrawVariants}
-                    width="100%"
-                    height="100%"
-                    fill="none"
-                    stroke="white"
-                    strokeWidth="1"
-                  />
-                </svg>
+            {false && (
+              <Link href="/creative-works" className="pointer-events-auto cursor-pointer">
+                <motion.div
+                  initial="hidden"
+                  animate={isHovered ? "visible" : "hidden"}
+                  variants={boxVariants}
+                  className="relative px-4 py-2 ml-0 backdrop-blur-sm bg-black/10 overflow-hidden group/btn"
+                >
+                  {/* SVG Border Drawing Effect */}
+                  <svg className="absolute top-0 left-0 w-full h-full pointer-events-none">
+                    <motion.rect
+                      variants={borderDrawVariants}
+                      width="100%"
+                      height="100%"
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="1"
+                    />
+                  </svg>
 
-                <div className="text-syne font-bold text-white text-lg uppercase tracking-widest block w-[240px] text-center">
-                  <ScrambleText
-                    text="Creative Works"
-                    trigger={isHovered}
-                    delay={0.8}
-                    duration={0.8}
-                  />
-                </div>
-              </motion.div>
-            </Link>
+                  <div className="text-syne font-bold text-white text-lg uppercase tracking-widest block w-[240px] text-center">
+                    <ScrambleText
+                      text="Creative Works"
+                      trigger={isHovered}
+                      delay={0.8}
+                      duration={0.8}
+                    />
+                  </div>
+                </motion.div>
+              </Link>
+            )}
           </div>
 
 
